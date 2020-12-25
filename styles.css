@@ -1,0 +1,50 @@
+.parallax-header{
+  background: #000;
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.8)
+  ),
+  url(images/agriculture-1850690_1920.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content{
+  padding: 175px 0 175px 0;
+}
+
+#brewery-content{
+  margin-top: -80px;
+}
+
+.content{
+  background: #fff;
+  box-shadow: 0 0 20px -6px rgba(0,0,0,0.2);
+}
+
+#brewery-content .left{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#antiques-content .right{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.content .right{
+  padding: 0;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.content .bottom{
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+}
